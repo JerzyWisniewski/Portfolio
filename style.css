@@ -183,7 +183,7 @@ html {
           /* Opera */
           animation: cssAnimation 0s ease-in 7s forwards;
           -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;hide 0s ease-in 7s forwards;
+          animation-fill-mode: forwards;
       }
       #parent3 {
         height: 40px;
