@@ -13,16 +13,16 @@
 	<div class="navigation">
 		<ul class="navigation__list">
 			<li class="navigation__item">
-				<a href="">TOP</a>
+				<a href=""><button class="buttonnav">TOP</button> </a>
 			</li>
 			<li class="navigation__item">
-				<a href="">WORK</a>
+				<a href=""><button class="buttonnav">WORK</button></a>
 			</li>
 			<li class="navigation__item">
-				<a href="">PEOPLE</a>
+				<a href=""><button class="buttonnav">PEOPLE</button></a>
 			</li>
 			<li class="navigation__item">
-				<a href="">CONTACT</a>
+				<a href=""><button class="buttonnav">CONTACT</button></a>
 			</li>
 		</ul>
     </div>
@@ -44,7 +44,7 @@
 		<div id="border4"></div>
     </div>
     </div>
-
+   
 <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -64,14 +64,21 @@
               </div>
             </div>
           </div>
+          <button class="jurekid" onclick="ani()">show me more</button> 
 
+          <div class="page2">
+                <img src="photo.jpg"/>
+
+          </div>
 
 <script>  
-        function addClass() { 
-            var v = document.getElementsByClassName("flip-card"); 
-            v.className += "flip-card-inner2"; 
+        function ani() { 
+            var element = document.getElementsByClassName(".page2");
+            element.classList.add(".spage2on");
+
         } 
-    </script>  
+    </script>
+
 	<script src="main.js"></script>
 </body>
 </html>
