@@ -276,3 +276,17 @@ html {
               visibility:hidden;
           }
       }
+
+.divcolor{
+    color: #37B8C9;
+}
+.classcolor{
+    color: #B5F861;
+}
+.titlecolor{
+    color:#FC9464;
+}
+
+.title{
+    margin-top: 100px;
+}
