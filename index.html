@@ -1,34 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>To Do Website</title>
-    <link rel="stylesheet" href="app.css">
-    <script src="https://kit.fontawesome.com/561e54a03e.js"></script>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Jerzy Wiśniewski</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="favicon.png" rel="shortcut icon" type="image/png">
+	<script src="https://kit.fontawesome.com/561e54a03e.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-<div class="mainField">
-        <div class="header">
-            <h2>Your Own ToDo list</h2><br/><br/>
-            <div class="removeText"><i class="fas fa-trash"></i> Clean Checked Tasks</div>
-        </div>
- 
+	<button class="hamburger"><span class="hamburger__box"><span class="hamburger__inner"></span></span></button>
+	<div class="navigation">
+		<ul class="navigation__list">
+			<li class="navigation__item">
+				<a href=""><button class="buttonnav">TOP</button> </a>
+			</li>
+			<li class="navigation__item">
+				<a href=""><button class="buttonnav">WORK</button></a>
+			</li>
+			<li class="navigation__item">
+				<a href=""><button class="buttonnav">PEOPLE</button></a>
+			</li>
+			<li class="navigation__item">
+				<a href=""><button class="buttonnav">CONTACT</button></a>
+			</li>
+		</ul>
+    </div>
+    <div class="title">
+	<div id="parent">
+		&lt;div class="title"&#62;
+		<div id="border"></div>
+	</div>
+	<div id="parent2">
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&#62; You don't need to understand that hieroglyphics &lt;/header&#62;
+		<div id="border2"></div>
+	</div>
+	<div id="parent3">
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&#62; I will take care of it for you &lt;/h2&#62;
+		<div id="border3"></div>
+	</div>
+	<div id="parent4">
+		&lt;/div&#62;
+		<div id="border4"></div>
+    </div>
+    </div>
+   
+<div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+            0011110100111110100100
+            0110100001000111100001
+            1011111000100001110000
+            1100111010011001000101
+            0101001010110101000001
+            1100011101000011101001
 
-    <div class="listBody">
-        <ul class="todoList">
-            <li class="todoItem">
-                <input type="checkbox"/> Hello World!
-            </li>
-        </ul>
-    </div>   
+            <button class="jurekid">show identity</button> 
+              </div>
+              <div class="flip-card-back">
+                <h1>Jerzy Wiśniewski</h1>
+                <p>Develpoer & designer</p>
+                <p>juraswis@gmail.com</p>
+              </div>
+            </div>
+          </div>
 
-    <input type="text" class="todoInput" placeholder="Enter a task and press enter">
+
+
+		  
+<h1>Mobile:</h1>
+<div class="mobile-games">
+
+		  <div class="dgc">
+<img src="dont-get-cut.png" width="100%">
+<h2> Don't get cut</h2>
+<p>Game is created in a retro, pixel style. Goal of the game is not to get cut. Pressing and releasing a finger control saw. It is tricky as you have to time it just right to cut the log but keep man below it alive.</p>
+		<div class="buttonsp">
+				<a href="https://play.google.com/store/apps/details?id=com.SitThinkDevelopEarn.Dontgetcutf&hl=pl"  target="_blank"><button class="mobile mm"><i class="fab fa-google-play"></i></button></a> <a href="https://youtu.be/vrYRGFBbgN0" target="_blank"><button class="mobile"><i class="fab fa-youtube"></i></button></a>
+</div> 
 </div>
 
-<script src="./app.js"></script>
 
+
+		  </div>
+
+
+
+
+		<h1>Websites:</h1>
+		<div class="websites">
+<div class="zpsem">
+	<img src="56770710_1014027975466924_7015926427744731136_n.png" width="100%">
+		<p> Minimalist site for polish bloger about how to educate dog and dogs' behaviour in big city</p>
+		<a href="https://zpsemnaobcasach.pl/"  target="_blank"><button class="website mm">WEBSITE</button></a>
+
+</div>
+<div class="dat">
+	<img src="undraw_augmented_reality_heuy.png" width="100%">
+		<p> site for a company dealing with the creation of applications and programs with the use of augmented reality</p>
+		<a href="https://www.datbrothers.com/"  target="_blank"><button class="website mm">WEBSITE</button></a>
+
+</div>
+
+</div>
+
+<div class="partners">
+<h1>Clients:</h1>
+
+<div class="partnersbg"><img class="leroy" src="C:\Users\Me\Desktop\GitHub\Porftolio\1200px-Leroy_Merlin.svg.png"> <img class="leroy" src="output-onlinepngtools.png"></div>
+
+</div>
+
+
+
+
+
+
+<script>  
+        function ani() { 
+            var element = document.getElementsByClassName(".page2");
+            element.classList.add(".spage2on");
+
+        } 
+    </script>
+
+	<script src="main.js"></script>
 </body>
 </html>

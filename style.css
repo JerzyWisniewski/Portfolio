@@ -11,7 +11,10 @@ html {
     background-color: #171717;
     padding: 20px;
   }
-  
+  h1{
+    font-family: 'Source Code Pro', monospace; 
+    color: white;
+  }
   .hamburger {
     padding: 10px;
     display: inline-block;
@@ -79,7 +82,7 @@ html {
   }
   
   .navigation {
-    height: 100vh;
+    height: 100%;
     width: 250px;
     background-color: #FFFFFF;
     position: absolute;
@@ -672,3 +675,114 @@ html {
     }
   }
   
+
+  .dgc{
+    margin:0 auto;
+    width: 300px;
+  height: 600px;
+  border: 3px solid #f1f1f1;
+  padding: 4px;
+  align-content: center;
+  font-family: 'Source Code Pro', monospace; 
+  color: white;
+
+  }
+
+  .mobile{
+    background:black;
+    border: 3px solid #f1f1f1;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+  }
+
+.mm{
+margin-right: 30px;
+}
+
+  .mobile:hover{
+    background:white;
+    border: 3px solid black;
+    font-size: 30px;
+    color: black;
+  }
+
+  .buttonsp{
+    margin-left: 66px;
+  }
+
+.mobile-games{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.zpsem{
+  float:left;
+  margin-left: 350px;
+  width: 300px;
+  height: 360px;
+  border: 3px solid #f1f1f1;
+  padding: 4px;
+  align-content: center;
+  font-family: 'Source Code Pro', monospace; 
+  color: white;
+  align-content: center;
+  margin-right: 20px;
+}
+
+.fa-paw{
+  margin-left: 50%;
+  font-size: 30px;
+}
+
+.website{
+  margin-left: 80px;
+  background:black;
+  border: 3px solid #f1f1f1;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-family: 'Source Code Pro', monospace; 
+}
+
+.mm{
+margin-right: 30px;
+}
+
+.dat{
+  overflow: hidden;
+  width: 300px;
+  height: 390px;
+  border: 3px solid #f1f1f1;
+  padding: 4px;
+  align-content: center;
+  font-family: 'Source Code Pro', monospace; 
+  color: white;
+  align-content: center;
+}
+
+.website:hover{
+  background:white;
+  border: 3px solid black;
+  font-size: 20px;
+  color: black;
+}
+
+.leroy{
+  margin-left: 5px;
+width: 100px;
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.leroy:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.partnersbg{
+  background: rgb(73, 69, 69);
+}
