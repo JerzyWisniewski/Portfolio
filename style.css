@@ -1,13 +1,6 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
+h1{
+  text-align: center;
+}
 
  body
  {
@@ -403,6 +396,17 @@
     }
   }
   
+.about{
+  margin:0 auto;
+  width: 600px;
+height: 300px;
+border: 3px solid #f1f1f1;
+padding: 4px;
+align-content: center;
+font-family: 'Source Code Pro', monospace; 
+color: white;
+}
+
 
   #jurek{
     padding: 5px;
@@ -770,10 +774,15 @@ margin-right: 30px;
   margin-right: auto;
 
 }
+.websites{
 
+align-content: center;
+margin:0 auto;
+}
 .zpsem{
   float:left;
-  margin-left: 350px;
+  margin-left: auto;
+  margin-right: 25px;
   width: 300px;
   height: 360px;
   border: 3px solid #f1f1f1;
@@ -782,7 +791,7 @@ margin-right: 30px;
   font-family: 'Source Code Pro', monospace; 
   color: white;
   align-content: center;
-  margin-right: 20px;
+  
 }
 
 .fa-paw{
@@ -791,7 +800,7 @@ margin-right: 30px;
 }
 
 .website{
-  margin-left: 80px;
+  margin:auto auto;
   background:black;
   border: 3px solid #f1f1f1;
   font-size: 20px;
@@ -805,6 +814,8 @@ margin-right: 30px;
 }
 
 .dat{
+  margin-right: auto;
+
   overflow: hidden;
   width: 300px;
   height: 390px;
